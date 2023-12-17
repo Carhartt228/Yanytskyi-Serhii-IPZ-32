@@ -284,3 +284,78 @@ footer{
     line-height: 16px; /* 114.286% */
     letter-spacing: 0.42px;
 }
+
+.menu-portfolio{
+    margin-top: 94px;
+}
+.menu-portfolio ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.menu-portfolio ul li{
+    width: 125px;
+    height: 38px;
+    border-radius: 4px;
+    background: #F5F4FA;
+    margin-right: 8px;
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.48px;
+    padding-top: 10px;
+}
+.menu-portfolio ul li:hover{
+    border-radius: 4px;
+    background: #2196F3;color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.48px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.section-portfolio-all{
+    margin-top: 50px;
+    margin-bottom: 94px;
+}
+.section-portfolio-all ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    place-items: center;
+    margin: 0 215px 0 215px;
+    list-style: none;
+}
+.section-portfolio-all ul li{
+    width: 370px;
+    height: 404px;
+    flex-shrink: 0;
+    border: 1px solid #EEE;
+    background: #FFF;
+}
+.portfolio-card-text{
+    margin-left: 24px;
+}
+.portfolio-card-title{
+    color: #212121;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 200% */
+    letter-spacing: 1.08px;
+}
+.portfolio-card-p{
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.48px;
+    margin-top: -20px;
+}
