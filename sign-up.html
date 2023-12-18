@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="CSS/styles1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter&display=swap"
+          rel="stylesheet">
+    <script src="JS/script.js"></script>
+</head>
+<body>
+<header>
+    <img class="logo" src="image/Logo.svg " alt="Logo">
+    <img id="waves" src="image/Wave%20Line%20(1).svg" alt="wave-and-line">
+</header>
+<div class="h1-sign-up">
+    <h1>Welcome. We exist to make entrepreneurism easier.</h1>
+</div>
+<section class="form-container-sign-up">
+    <div class="google-container">
+        <img class="google-logo" src="image/google-icon.svg" alt="google icon">
+        <div class="google-button">Sign up with Google</div>
+    </div>
+    <div class="line-and-text">
+        <hr class="line-sign-up">
+        <p class="text-between-line">Or, register with your email</p>
+        <hr class="line-sign-up">
+    </div>
+    <form action="post.php" method="post">
+        <label for="username" class="form-label">Full Name<span class="zirochka"> *</span></label>
+        <div class="input-form-sign-up"><input type="text" id="username" name="name"
+                                               placeholder="First and last name"></div>
+        <label for="companyname" class="form-label">Company Name<span class="zirochka"> *</span></label>
+        <div class="input-form-sign-up"><input type="text" id="companyname" name="company-name"
+                                               placeholder="Your company or app name"></div>
+        <label for="workemail" class="form-label">Work Email<span class="zirochka"> *</span></label>
+        <div class="input-form-sign-up"><input type="email" id="workemail" name="work-email"
+                                               placeholder="you@yourcompany.com"></div>
+        <label for="password" class="form-label">Password<span class="zirochka"> *</span></label>
+        <div class="input-form-sign-up"><input type="password" id="password" name="password"
+                                               placeholder="Password (at least 10 characters)"></div>
+    </form>
+    <p class="sign-up-rights">I agree to be contacted by Open PRO about this offer as per the Open PRO <span
+            id="privacy">Privacy Policy</span>.</p>
+    <button type="submit" class="sign-up-submit">Sign Up</button>
+    <p id="text-under-sign-up-submit">Already using Open PRO? <a href="index1.html" id="sign-in-in-form">Sign in</a></p>
+</section>
+</body>
+</html>
